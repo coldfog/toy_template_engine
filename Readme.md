@@ -14,7 +14,7 @@ The template grammar contains two type of tags.
 
 ###Expression
 
-**Literals:** all literals of pythonn is valid. For example:
+**Literals:** *(NOT_IMPLEMENT)*all literals of pythonn is valid. For example:
 
 + string: `"Hello world"`
 + number: `43`, `3.14159`
@@ -23,16 +23,16 @@ The template grammar contains two type of tags.
 + tuple: `(12, 33)`
 + boolean: `True`, `False`
 
-**Math** The following operators is supported:
+**Math** *(NOT_IMPLEMENT)*The following operators is supported:
 `+`, `-`, `*`, `/`, `**`, `%`, `//`
 
-**Comparisons** The following operators is supported:
+**Comparisons** *(NOT_IMPLEMENT)*The following operators is supported:
 `==`, `>=`, `<=`, `!=`, `>`, `<`
 
-**Logic** The following operators is supported:
+**Logic** *(NOT_IMPLEMENT)*The following operators is supported:
 `and`, `or`, `not`, `()`
 
-**Other** The following operators is supported:
+**Other** *(NOT_IMPLEMENT)*The following operators is supported:
 `in`, `is`,
 
 `[]` for getting an attribute of an object,
@@ -43,7 +43,7 @@ The template grammar contains two type of tags.
 
 ###Statement
 
-**If statement:** The if statement is similar to python. `elif` and `else` are optional. For example:
+**If statement:** *(NOT_IMPLEMENT)*The if statement is similar to python. `elif` and `else` are optional. For example:
 
 ```
 {% if condition1 %}
@@ -55,7 +55,7 @@ The template grammar contains two type of tags.
 {% endif %}
 ```
 
-**For statement:** The for statement is just like below:
+**For statement:** *(NOT_IMPLEMENT)*The for statement is just like below:
 
 ```
 {% for item in items%}
